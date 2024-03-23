@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    /*background-color: #d6dfe7;*/
+    background-image: url(https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    max-width: 800px;
+    margin: 120px auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background-color: #f9f9f9;
+    /*box-shadow: 8px 7px 5px rgb(232, 219, 219);*/
+  }
+  
+h1{
+    text-align: center;
+}
+  
+form{
+    margin-bottom: 10px;
+  }
+  
+button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+  }
+  
+#codeDisplay {
+    margin-top: 20px;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-x: auto;
+  }
+  
+.codeBlock {
+    white-space: pre;
+    color: #333;
+  }
+
+label{
+    font-size: 2rem;
+}
